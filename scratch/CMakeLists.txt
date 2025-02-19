@@ -1,3 +1,8 @@
+
+
+
+
+
 set(target_prefix scratch_)
 
 function(create_scratch source_files)
@@ -109,3 +114,15 @@ foreach(subdir ${scratch_subdirectories})
     create_scratch("${scratch_sources}")
   endif()
 endforeach()
+
+add_executable(iot_network ${CMAKE_SOURCE_DIR}/scratch/iot_network.cc)
+
+target_link_libraries(iot_network
+  ns3.43-core-default
+  ns3.43-network-default
+  ns3.43-mobility-default
+  ns3.43-netanim-default
+  ns3.43-energy-default
+  ns3.43-lr-wpan-default
+)
+

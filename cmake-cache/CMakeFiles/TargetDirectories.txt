@@ -970,8 +970,10 @@
 /home/vineeth/ns-aio-3.43/ns-3.43/cmake-cache/examples/wireless/CMakeFiles/install.dir
 /home/vineeth/ns-aio-3.43/ns-3.43/cmake-cache/examples/wireless/CMakeFiles/install/local.dir
 /home/vineeth/ns-aio-3.43/ns-3.43/cmake-cache/examples/wireless/CMakeFiles/install/strip.dir
+/home/vineeth/ns-aio-3.43/ns-3.43/cmake-cache/scratch/CMakeFiles/scratch_iot_network.dir
 /home/vineeth/ns-aio-3.43/ns-3.43/cmake-cache/scratch/CMakeFiles/scratch_scratch-simulator.dir
 /home/vineeth/ns-aio-3.43/ns-3.43/cmake-cache/scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir
+/home/vineeth/ns-aio-3.43/ns-3.43/cmake-cache/scratch/CMakeFiles/iot_network.dir
 /home/vineeth/ns-aio-3.43/ns-3.43/cmake-cache/scratch/CMakeFiles/edit_cache.dir
 /home/vineeth/ns-aio-3.43/ns-3.43/cmake-cache/scratch/CMakeFiles/rebuild_cache.dir
 /home/vineeth/ns-aio-3.43/ns-3.43/cmake-cache/scratch/CMakeFiles/list_install_components.dir
