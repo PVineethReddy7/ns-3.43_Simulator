@@ -76,9 +76,10 @@ int main(int argc, char *argv[])
 
     // Enable packet tracing
    // ✅ Corrected tracing setup
-AsciiTraceHelper ascii;
-Ptr<OutputStreamWrapper> stream = ascii.CreateFileStream("iot_network.tr");
-lrWpan.EnableAsciiAll(stream);
+   AsciiTraceHelper ascii;
+   Ptr<OutputStreamWrapper> stream = ascii.CreateFileStream("iot_network_udp.tr");
+   internet.EnableAsciiIpv4All(stream);  // ✅ Enables UDP tracing
+   
 
 
     // Enable NetAnim visualization

@@ -124,5 +124,7 @@ target_link_libraries(iot_network
   ns3.43-netanim-default
   ns3.43-energy-default
   ns3.43-lr-wpan-default
+  ns3.43-internet-default   
+  ns3.43-applications-default  
 )
 
