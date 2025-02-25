@@ -105,6 +105,11 @@
 <nu p="s" t="0" id="3" w="1" h="1" />
 <nu p="s" t="0" id="4" w="1" h="1" />
 <ncs ncId="0" n="RemainingEnergy" t="DOUBLE" />
+<nu p="c" t="0" id="0" r="255" g="0" b="0" />
+<nu p="c" t="0" id="1" r="0" g="0" b="255" />
+<nu p="c" t="0" id="2" r="0" g="255" b="0" />
+<nu p="c" t="0" id="3" r="255" g="255" b="0" />
+<nu p="c" t="0" id="4" r="255" g="0" b="255" />
 <nu p="p" t="0" id="1" x="0" y="0" />
 <nu p="p" t="0" id="2" x="0" y="0" />
 <nu p="p" t="0" id="3" x="0" y="0" />
@@ -149,22 +154,22 @@
 <nu p="p" t="1.85" id="3" x="-5.185882166" y="-7.659577414" />
 <nu p="p" t="1.95" id="3" x="-5.466200121" y="-8.073608625" />
 <nu p="p" t="1.95" id="4" x="-3.109624169" y="-9.240819094" />
-<pr uId="1" fId="3" fbTx="2.00224" />
+<pr uId="1" fId="3" fbTx="2.00224" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 151, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.4 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="1" tId="4" fbRx="2.002240009" lbRx="0" />
 <wpr uId="1" tId="0" fbRx="2.002240033" lbRx="0" />
 <wpr uId="1" tId="1" fbRx="2.002240062" lbRx="0" />
 <wpr uId="1" tId="2" fbRx="2.002240067" lbRx="0" />
-<pr uId="2" fId="4" fbTx="2.00532" />
+<pr uId="2" fId="4" fbTx="2.00532" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 107, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.5 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="2" tId="3" fbRx="2.005320009" lbRx="0" />
 <wpr uId="2" tId="0" fbRx="2.005320033" lbRx="0" />
 <wpr uId="2" tId="1" fbRx="2.005320058" lbRx="0" />
 <wpr uId="2" tId="2" fbRx="2.005320067" lbRx="0" />
-<pr uId="3" fId="2" fbTx="2.008328" />
+<pr uId="3" fId="2" fbTx="2.008328" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 182, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.3 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="3" tId="1" fbRx="2.008328029" lbRx="0" />
 <wpr uId="3" tId="0" fbRx="2.008328033" lbRx="0" />
 <wpr uId="3" tId="3" fbRx="2.008328067" lbRx="0" />
 <wpr uId="3" tId="4" fbRx="2.008328067" lbRx="0" />
-<pr uId="4" fId="1" fbTx="2.015176" />
+<pr uId="4" fId="1" fbTx="2.015176" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 252, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.2 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="4" tId="2" fbRx="2.015176029" lbRx="0" />
 <wpr uId="4" tId="0" fbRx="2.015176034" lbRx="0" />
 <wpr uId="4" tId="4" fbRx="2.015176058" lbRx="0" />
@@ -192,22 +197,22 @@
 <nu p="p" t="2.95" id="1" x="14.47367727" y="2.841683729" />
 <nu p="p" t="2.95" id="2" x="6.933734877" y="13.018672" />
 <nu p="p" t="2.95" id="3" x="-8.26937967" y="-12.21392074" />
-<pr uId="5" fId="3" fbTx="3.00064" />
+<pr uId="5" fId="3" fbTx="3.00064" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 152, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.4 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="5" tId="4" fbRx="3.000640013" lbRx="0" />
 <wpr uId="5" tId="0" fbRx="3.00064005" lbRx="0" />
 <wpr uId="5" tId="1" fbRx="3.000640093" lbRx="0" />
 <wpr uId="5" tId="2" fbRx="3.0006401" lbRx="0" />
-<pr uId="6" fId="2" fbTx="3.002368" />
+<pr uId="6" fId="2" fbTx="3.002368" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 183, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.3 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="6" tId="1" fbRx="3.002368043" lbRx="0" />
 <wpr uId="6" tId="0" fbRx="3.00236805" lbRx="0" />
 <wpr uId="6" tId="3" fbRx="3.0023681" lbRx="0" />
 <wpr uId="6" tId="4" fbRx="3.0023681" lbRx="0" />
-<pr uId="7" fId="1" fbTx="3.004288" />
+<pr uId="7" fId="1" fbTx="3.004288" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 253, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.2 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="7" tId="2" fbRx="3.004288043" lbRx="0" />
 <wpr uId="7" tId="0" fbRx="3.00428805" lbRx="0" />
 <wpr uId="7" tId="4" fbRx="3.004288087" lbRx="0" />
 <wpr uId="7" tId="3" fbRx="3.004288093" lbRx="0" />
-<pr uId="8" fId="4" fbTx="3.012416" />
+<pr uId="8" fId="4" fbTx="3.012416" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 108, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.5 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="8" tId="3" fbRx="3.012416014" lbRx="0" />
 <wpr uId="8" tId="0" fbRx="3.01241605" lbRx="0" />
 <wpr uId="8" tId="1" fbRx="3.012416087" lbRx="0" />
@@ -232,22 +237,22 @@
 <nu p="p" t="3.95" id="1" x="19.38000854" y="3.804966349" />
 <nu p="p" t="3.95" id="2" x="9.28415348" y="17.43178115" />
 <nu p="p" t="3.95" id="3" x="-11.07255922" y="-16.35423286" />
-<pr uId="9" fId="4" fbTx="4.00032" />
+<pr uId="9" fId="4" fbTx="4.00032" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 109, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.5 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="9" tId="3" fbRx="4.000320018" lbRx="0" />
 <wpr uId="9" tId="0" fbRx="4.000320067" lbRx="0" />
 <wpr uId="9" tId="1" fbRx="4.000320115" lbRx="0" />
 <wpr uId="9" tId="2" fbRx="4.000320133" lbRx="0" />
-<pr uId="10" fId="2" fbTx="4.002048" />
+<pr uId="10" fId="2" fbTx="4.002048" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 184, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.3 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="10" tId="1" fbRx="4.002048057" lbRx="0" />
 <wpr uId="10" tId="0" fbRx="4.002048067" lbRx="0" />
 <wpr uId="10" tId="3" fbRx="4.002048133" lbRx="0" />
 <wpr uId="10" tId="4" fbRx="4.002048133" lbRx="0" />
-<pr uId="11" fId="3" fbTx="4.004928" />
+<pr uId="11" fId="3" fbTx="4.004928" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 153, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.4 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="11" tId="4" fbRx="4.004928018" lbRx="0" />
 <wpr uId="11" tId="0" fbRx="4.004928067" lbRx="0" />
 <wpr uId="11" tId="1" fbRx="4.004928124" lbRx="0" />
 <wpr uId="11" tId="2" fbRx="4.004928133" lbRx="0" />
-<pr uId="12" fId="1" fbTx="4.010496" />
+<pr uId="12" fId="1" fbTx="4.010496" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 254, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.2 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="12" tId="2" fbRx="4.010496057" lbRx="0" />
 <wpr uId="12" tId="0" fbRx="4.010496067" lbRx="0" />
 <wpr uId="12" tId="4" fbRx="4.010496116" lbRx="0" />
@@ -271,17 +276,17 @@
 <nu p="p" t="4.85" id="3" x="-13.59542081" y="-20.08051376" />
 <nu p="p" t="4.95" id="1" x="24.28633982" y="4.768248969" />
 <nu p="p" t="4.95" id="4" x="-7.893661352" y="-23.45746385" />
-<pr uId="13" fId="1" fbTx="5.00096" />
-<pr uId="14" fId="2" fbTx="5.00096" />
+<pr uId="13" fId="1" fbTx="5.00096" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 255, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.2 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
+<pr uId="14" fId="2" fbTx="5.00096" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 185, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.3 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="13" tId="0" fbRx="5.000960083" lbRx="0" />
 <wpr uId="13" tId="4" fbRx="5.000960144" lbRx="0" />
 <wpr uId="13" tId="3" fbRx="5.000960154" lbRx="0" />
-<pr uId="15" fId="4" fbTx="5.002816" />
+<pr uId="15" fId="4" fbTx="5.002816" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 110, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.5 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="15" tId="3" fbRx="5.002816023" lbRx="0" />
 <wpr uId="15" tId="0" fbRx="5.002816083" lbRx="0" />
 <wpr uId="15" tId="1" fbRx="5.002816144" lbRx="0" />
 <wpr uId="15" tId="2" fbRx="5.002816166" lbRx="0" />
-<pr uId="16" fId="3" fbTx="5.004736" />
+<pr uId="16" fId="3" fbTx="5.004736" meta-info="ns3::lrwpan::LrWpanMacHeader (  Frame Type = 1, Sec Enable = 0, Frame Pending = 0, Ack Request = 0, PAN ID Compress = 1, Frame Vers = 1, Dst Addrs Mode = 2, Src Addr Mode = 2, Sequence Num = 154, Dst Addr Pan ID = 4660, m_addrShortDstAddr = ff:ff, Src Addr Pan ID = 4660, m_addrShortSrcAddr = ff:ff) ns3::ArpHeader (request source mac: 00-06-02:00:00:00:ff:ff source ipv4: 10.1.1.4 dest ipv4: 10.1.1.1) ns3::lrwpan::LrWpanMacTrailer ( FCS = 0)" />
 <wpr uId="16" tId="4" fbRx="5.004736023" lbRx="0" />
 <wpr uId="16" tId="0" fbRx="5.004736083" lbRx="0" />
 <wpr uId="16" tId="1" fbRx="5.004736154" lbRx="0" />

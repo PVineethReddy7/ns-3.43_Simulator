@@ -85,6 +85,20 @@ int main(int argc, char *argv[])
     // Enable NetAnim visualization
     AnimationInterface anim("iot_network.xml");
 
+    // Enable NetAnim packet tracking
+anim.EnablePacketMetadata(true);  // ✅ Show packet movement
+
+// Assign colors to different nodes
+anim.UpdateNodeColor(0, 255, 0, 0);   // Node 0 (Red - Server)
+anim.UpdateNodeColor(1, 0, 0, 255);   // Node 1 (Blue)
+anim.UpdateNodeColor(2, 0, 255, 0);   // Node 2 (Green)
+anim.UpdateNodeColor(3, 255, 255, 0); // Node 3 (Yellow)
+anim.UpdateNodeColor(4, 255, 0, 255); // Node 4 (Purple)
+
+// Enable IP route tracking for better visualization
+anim.EnableIpv4RouteTracking("iot_network_route.xml", Seconds(0), Seconds(10), Seconds(0.5));
+
+
     // Enable mobility tracking for NetAnim
     anim.SetMobilityPollInterval(Seconds(0.1));
 
